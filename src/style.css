@@ -79,8 +79,8 @@ body {
     url(../images/background.jpeg) no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 27rem;
-  padding-bottom: 10rem;
+  padding-top: 37rem;
+  padding-bottom: 30rem;
 }
 .home {
   display: flex;
@@ -102,16 +102,7 @@ span {
   font-size: 5.6rem;
   font-weight: 700;
 }
-.home-img img {
-  width: 400px;
-  height: 400px;
-  color: black;
-  display: block;
-  margin-bottom: -6rem;
-  border-radius: 0% 100% 50% / 0% 100% 0%;
-  border: 50px;
-  animation: floatImage 4s ease-in-out infinite;
-}
+
 @keyframes floatImage{
 50% {
 transform: translateY(-9.15rem);
@@ -465,7 +456,11 @@ font-size: 4rem;
 
  }
    .about h2{
-margin: 2rem;
+font-size: 6rem;
+text-align: center;
+ }
+    .about h3{
+font-size: 4rem;
 text-align: center;
  }
    .about p{
@@ -479,6 +474,7 @@ text-align: center;
  .about img{
 width: 70vw;
 margin-top: 4rem;
+
 
  }
  .skills .heading{
