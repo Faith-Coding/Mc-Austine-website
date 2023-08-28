@@ -44,23 +44,23 @@ body {
 }
 .logo {
   font-size: 2.5rem;
-  color: var(--text-color);
+  color:#000;
   font-weight: 600;
   cursor: default;
 }
 .nav-bar a {
   font-size: 1.7rem;
-  color: var(--text-color);
+  color: #000;
   margin-left: 4rem;
   transition: 0.2s;
 }
 .nav-bar a:hover {
-  color: var(--main-color);
+  color:#c36;
   text-decoration: underline;
 }
 .nav-bar a:hover,
 .nav-bar a.active {
-  color: var(--main-color);
+  color: #c36;
   text-decoration: underline;
 }
 #menu-icon {
@@ -294,7 +294,7 @@ transform: translateY(0);
   left: 0;
   width: 100%;
   padding: 1rem 3%;
-  background: rgba(0, 0, 0, .7);
+  background: #fff;
   border-top: 1rem solid rgba(0, 0, 0, .2);
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
   display: none;
@@ -356,7 +356,7 @@ margin-top: 4rem;
  .project h2{
 font-size: 3rem
  }
- .project-container{
+ .event{
 grid-template-columns: repeat(2, 1fr);
  }
  .home-content h1{
@@ -368,7 +368,7 @@ font-size: 4rem
 }
 }
 @media(max-width: 617px) {
-   .project-container{
+   .event{
 grid-template-columns: 1fr;
  }
  
