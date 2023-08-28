@@ -9,24 +9,24 @@
       src="https://kit.fontawesome.com/9851b8010f.js"
       crossorigin="anonymous"
     ></script>
-    <meta name="description" content="MC Austine official website" />
+    <meta name="description" content="Faith is a Front-end developer based in germany" />
 
-    <title> MC Austine website</title>
+    <title> MC Austine official website</title>
    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
   </head>
   <body>
     <!-------------header section begins-->
 
     <header class="header">
-      <a href="#" class="logo" title="faith's-logo">Austine</a>
+      <a href="#" class="logo" title="Austine's-logo">Austine</a>
 
       <i class="fa-solid fa-bars" id="menu-icon"></i>
 
       <nav class="nav-bar">
         <a href="#home" class="active" title="Homepage">Home</a>
-        <a href="#about" title="about-faith">About</a>
-        <a href="#event" title="faith's-skills">Event</a>
-        <a href="#contact" title="contact-faith">Contact</a>
+        <a href="#about" title="about-faith">About Me</a>
+        <a href="#event" title="faith's-events">My Events</a>
+        <a href="#contact" title="contact-Austine">Contact</a>
       </nav>
     </header>
     <!-------------header section ends------->
@@ -36,7 +36,7 @@
     <h3>Hello 👋 </h3>
     <h1>I am  Mc Austine </h1>
     <h3>  <span class="mutiple-text"> </span></h3>
-   <p>compare median, best wedding </p>
+    <p>compare median, best wedding </p>
       <div class="social-media">
         <a href="https://www.faok.com/akhigbe.faith.50" target="_blank"><i class="fa-brands fa-facebook" title="facebook profile"></i></a>
         <a href="https://www.igram.com/akhigbefaith/" target="_blank"><i class="fa-brands fa-instagram" title="instagram profile"></i></i></a>
@@ -46,9 +46,6 @@
 
 </section>
     <!-------------Home section ends------>
-
-
-
     <!-------------about section starts------->
 <section class="about" id="about">
   <div class="about-img">
@@ -76,62 +73,44 @@
 </div>
 </section>
     <!-------------about section ends------->
+    
+    <!-------------project section starts------->
+
+    <section class="project" id="project">
+      <h2 class="heading">Latest <span>Project</span></h2>
+  <div class="project-container">
+
+   <div class="project-box">
+    <img src="images/react-dictionary.jpeg" alt="dictionary-preview">
+    <div class="project-layer">
+      <h4>React Dictionary App</h4>
+      <p>An application that allows users to search for English vocabularies,
+         with meanings, pronunciations, examples, and image gallaries. 
+       </p>
+        <h4>Built with  HTML, CSS Boostrap and React</h4>
+   <a href="https://english-dictionary-project.netlify.app/"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div>  
+  </div>
 
 
 
+    <div class="project-box">
+    <img src="images/weather-app.jpg" alt="weather-app-preview">
+    <div class="project-layer">
+      <h4> Weather app</h4>
+      <p>weather app to display weather of your
+         current location.
+          used the Openweathermap 
+        API data for live weather and forcast of 6 days.</p>
+        <h4>Built with HTML, CSS and JS</h4>
+   <a href="https://weather-js-app-project.netlify.app/"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div>  
+  </div>
 
-<!---- packages section starts  ---->
-<section class="packages" id="event">
+  </div>        
+    </section>
 
-   <h1 class="heading"> Events </h1>
-
-
-<div class="box-container">
-    <div class="box">
-      <img src="images/event1.jpeg" alt="">
-      <div class="content">
-        <h3><i class="fas fa-map-marker-alt"> Marlow </i></h3>
-        <p>IHG Hotel</p>
-        <div class="stars">
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-           <i class="fas fa-star"></i>
-        </div>
-        <div class="price">$89.80</div>
-        <a href="#" class="btn">book now</a>
-      </div>
-    </div>
-
-
-
-      <img src="images/event2.jpeg" alt="">
-      <div class="content">
-        <h3><i class="fas fa-map-marker-alt"> Crewe </i></h3>
-        <p>Hamburg Airport</p>
-        <div class="stars">
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-        </div>
-        <div class="price">$456.80</div>
-        <a href="#" class="btn">book now</a>
-      </div>
-      <iframe src="https://www.google.com/maps/d/embed?mid=1-3gys5-pakEbNZ9YgMfZ1_53tWk&hl=en&ehbc=2E312F" 
-      class="embed">
-      </iframe>
-    </div>
-
-</div>
-</section>
-
-
-    <!-----footer section ends--------->
-
-
-<section class="footer" id="contact">
+   <section class="footer">
 <div class="box-container">
     <div class="box">
   <h3>follow us  </h3>
@@ -155,19 +134,14 @@
     <a href="#" class="links"><i class="fa-solid fa-arrow-right"></i>packages</a>
     <a href="#" class="links"><i class="fa-solid fa-arrow-right"></i>home</a>
     </div>
+
+
+       <div class="box">
+  <h3>About me</h3>
+    <p> Hi! my name is Akhigbe Faith Omoighe. I created this page as part of
+      a project for SheCodes Responsive to develop
+      my coding skills. This project was coded by Akhigbe Faith Omoighe and it is 
+  <a href="https://github.com/Faith-Coding/travel">Open Source</a> </div>
+   </p>
+    </div>
 </section>
-
-
-
-
-
-
-      
-
-
- <!-------------scroll reveal------->
-<script src="https://unpkg.com/scrollreveal"></script>
-<script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
-    <script src="src/app.js"></script>
-  </body>
-</html>
