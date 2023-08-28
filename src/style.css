@@ -8,10 +8,10 @@
   font-family: "Poppins", sans-serif;
 }
 :root {
-  --bg-color: #1f2420;
+  --bg-color:#fff;
   --second-bg-color: #323946;
   --text-color: #fff;
-  --main-color: #fca311;
+  --main-color: #fff;
 }
 htm {
   font-size: 62.5%;
@@ -65,7 +65,7 @@ body {
 }
 #menu-icon {
   font-size: 3.6rem;
-  color: var(--text-color);
+  color: #323946;
   display: none;
  
 }
@@ -113,8 +113,7 @@ transform: translateY(0);
 }
 .home-content p {
     font-size: 1.5rem;
-    margin-bottom: 1.3rem;
-   
+    margin-bottom: 1.3rem;  
 }
 
 .social-media a{
@@ -190,18 +189,11 @@ transform: translateY(0);
 
 
 
-
-
- .packages .package-grid{
+ .events .box-container{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
  }
- .packages h3{
-  text-align: center;
-  font-size: 1rem;
-
-}
 
 /*footer section starts*/
 
@@ -269,24 +261,9 @@ transform: translateY(0);
   color:var(--main-color);
 }
 .footer .box-container .box a:hover{
-   color: blue;
+   color:  #c36;
    text-decoration: underline;  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*-------------footer section starts-------*/
 @media(max-width: 1200px) {
@@ -317,7 +294,7 @@ transform: translateY(0);
   left: 0;
   width: 100%;
   padding: 1rem 3%;
-  background: var(--bg-color);
+  background: rgba(0, 0, 0, .7);
   border-top: 1rem solid rgba(0, 0, 0, .2);
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
   display: none;
