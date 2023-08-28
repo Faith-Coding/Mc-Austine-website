@@ -194,6 +194,9 @@ transform: translateY(0);
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
  }
+ .events .heading{
+  color: #000;
+ }
 
 /*footer section starts*/
 
