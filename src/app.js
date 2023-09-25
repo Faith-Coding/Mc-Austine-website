@@ -58,7 +58,7 @@ ScrollReveal().reveal(".home-content h1, .about-img", { origin: "left" });
 
 ScrollReveal().reveal(".home-content p, .about-content", { origin: "right" });
 const typed = new Typed(".mutiple-text", {
-  strings: ["", "Event planner", "DS TV repairer"],
+  strings: ["", "Event planner", "installation of all satellite"],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 100,
